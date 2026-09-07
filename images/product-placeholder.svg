@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-label="AeroBlend Go product placeholder">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F6F1"/>
+      <stop offset="100%" stop-color="#D4EDE5"/>
+    </linearGradient>
+    <linearGradient id="lidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2A2A32"/>
+      <stop offset="100%" stop-color="#1A1A20"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C6CF0"/>
+    </linearGradient>
+  </defs>
+  <!-- soft shadow -->
+  <ellipse cx="200" cy="490" rx="110" ry="18" fill="#1A1A20" opacity="0.08"/>
+  <!-- cup body -->
+  <rect x="110" y="140" width="180" height="280" rx="40" fill="url(#bodyGrad)" stroke="#B8D9CE" stroke-width="2"/>
+  <!-- inner liquid hint -->
+  <rect x="125" y="200" width="150" height="180" rx="28" fill="#C5E8DC" opacity="0.55"/>
+  <!-- swirl -->
+  <path d="M160 240 Q200 280 240 250 Q200 300 160 320" fill="none" stroke="#7C6CF0" stroke-width="3" opacity="0.35" stroke-linecap="round"/>
+  <!-- blade housing -->
+  <circle cx="200" cy="390" r="28" fill="#2A2A32"/>
+  <circle cx="200" cy="390" r="14" fill="#A78BFA"/>
+  <!-- lid -->
+  <rect x="100" y="100" width="200" height="55" rx="20" fill="url(#lidGrad)"/>
+  <!-- spout / drink opening -->
+  <rect x="165" y="70" width="70" height="40" rx="14" fill="#1A1A20"/>
+  <rect x="175" y="78" width="50" height="12" rx="6" fill="#A78BFA" opacity="0.7"/>
+  <!-- USB port hint -->
+  <rect x="175" y="405" width="50" height="8" rx="3" fill="#7C6CF0" opacity="0.5"/>
+  <!-- brand mark -->
+  <text x="200" y="175" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#2A2A32" opacity="0.45">AeroBlend</text>
+</svg>
